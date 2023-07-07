@@ -5,13 +5,17 @@ using UnityEngine;
 public class FollowCamera : MonoBehaviour
 {
     public Transform cameraPos;
-    public Rigidbody2D rb;
+    private Rigidbody2D rb;
 
-    public float speed = 5.0f;
+    public float speed = 25f;
 
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
     // Update is called once per frame
     void FixedUpdate()
     {
-        rb.MovePosition(speed * Time.deltaTime * cameraPos.position);
+        rb.MovePosition(cameraPos.position);
     }
 }

@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
         rb.gravityScale = 0f;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         Vector2 movement = Input.mousePosition;
         movement.x = (Input.mousePosition.x - Screen.width / 2) / Screen.width * 2f;
