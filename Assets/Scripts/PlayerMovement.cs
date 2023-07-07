@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 10000f; 
+    public float speed = 5000f; 
 
     private Rigidbody2D rb;
 
@@ -19,9 +19,9 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         Vector2 movement = Input.mousePosition;
-        movement.x = (Input.mousePosition.x - Screen.width / 2) / Screen.width;
-        movement.y = (Input.mousePosition.y - Screen.height / 2) / Screen.height;
-        rb.velocity = movement * speed * Time.deltaTime;
+        movement.x = (Input.mousePosition.x - Screen.width / 2) / Screen.width * 2f;
+        movement.y = (Input.mousePosition.y - Screen.height / 2) / Screen.height * 2f;
+        rb.velocity = speed * Time.deltaTime * movement;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
