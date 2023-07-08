@@ -7,8 +7,6 @@ public class FollowCamera : MonoBehaviour
     public Transform cameraPos;
     private Rigidbody2D rb;
 
-    public float speed = 25f;
-
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
