@@ -8,8 +8,6 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rb;
 
-    private float range = 0.0f;
-
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
