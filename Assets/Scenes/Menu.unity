@@ -293,7 +293,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SETTINGS
+  m_text: CREDITS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9c1e9aeded45c584395326d352e39b83, type: 2}
   m_sharedMaterial: {fileID: 4079175366726565928, guid: 9c1e9aeded45c584395326d352e39b83, type: 2}
@@ -488,7 +488,7 @@ GameObject:
   - component: {fileID: 1049343293}
   - component: {fileID: 1049343292}
   m_Layer: 5
-  m_Name: Settings
+  m_Name: creditsButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -558,7 +558,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1049343293}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 693629761}
+        m_TargetAssemblyTypeName: MenuHandler, Assembly-CSharp
+        m_MethodName: ChangeToScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Credits
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1049343293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -821,7 +833,7 @@ GameObject:
   - component: {fileID: 1831810611}
   - component: {fileID: 1831810610}
   m_Layer: 5
-  m_Name: Play
+  m_Name: playButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -901,7 +913,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Game
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1831810611
