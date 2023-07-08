@@ -1330,6 +1330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charPos: {fileID: 512392621}
+  mouseLight: {fileID: 1754471703}
 --- !u!1 &1754471701
 GameObject:
   m_ObjectHideFlags: 0
