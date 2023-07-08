@@ -48,8 +48,8 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 63}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -157,14 +157,14 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1aa173af43aab754eb6990ff29bcc842
-      internalID: -1962890579
+      spriteID: 55f5e76cb46bfc248a0def41f7a7583c
+      internalID: -1661126323
       vertices: []
       indices: 
       edges: []
@@ -178,14 +178,14 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9fb96fded6750a4e837158e0cd4d561
-      internalID: 1729758971
+      spriteID: d0663872de212374993c3380db7c3a3e
+      internalID: -1272597836
       vertices: []
       indices: 
       edges: []
@@ -199,14 +199,14 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9c5c71b9827f5c4a9f8bd1092af2ed8
-      internalID: -1047981268
+      spriteID: 82ab743b519744c4981ca7f80bedd3e6
+      internalID: 964662016
       vertices: []
       indices: 
       edges: []
@@ -220,14 +220,14 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f5719bb9d52b81448ccd36fcad38536
-      internalID: -1342022874
+      spriteID: f92d586dfbd0d274caeab5496fbe3d9d
+      internalID: 1006357926
       vertices: []
       indices: 
       edges: []
@@ -241,14 +241,14 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdeecb2364e0ec14dba014e524ce430e
-      internalID: -1122747138
+      spriteID: c52bcbf0851ba6b4a897d993f89e335d
+      internalID: -569538919
       vertices: []
       indices: 
       edges: []
@@ -262,14 +262,14 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49d9ab85175b952438e23f0b410c72ff
-      internalID: -1388288802
+      spriteID: 22b00d7ef3634b24d83791ebc9c55803
+      internalID: -994556736
       vertices: []
       indices: 
       edges: []
@@ -278,19 +278,19 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PlaceholderTileMap_0: -1962890579
-      PlaceholderTileMap_1: 1729758971
-      PlaceholderTileMap_2: -1047981268
-      PlaceholderTileMap_3: -1342022874
-      PlaceholderTileMap_4: -1122747138
-      PlaceholderTileMap_5: -1388288802
+      PlaceholderTileMap_0: -1661126323
+      PlaceholderTileMap_1: -1272597836
+      PlaceholderTileMap_2: 964662016
+      PlaceholderTileMap_3: 1006357926
+      PlaceholderTileMap_4: -569538919
+      PlaceholderTileMap_5: -994556736
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
