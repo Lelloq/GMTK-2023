@@ -7,11 +7,19 @@ public class MenuHandler : MonoBehaviour
 {
     public void ChangeToScene (string sceneToChangeTo) 
     {
+        Debug.Log("Changing Scenes");
         SceneManager.LoadScene(sceneToChangeTo);
     }
     public void Quit()
     {
-        Application.Quit();
         Debug.Log("App Quit");
+        Application.Quit();
+    }
+    public void Update()
+    {
+        if(SceneManager.GetActiveScene().name == "Credits" && Input.anyKey)
+        {
+            ChangeToScene("Menu");
+        }
     }
 }
