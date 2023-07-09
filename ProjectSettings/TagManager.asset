@@ -8,6 +8,10 @@ TagManager:
   - Barrier
   - Obstacle
   - ObstacleVisuals
+  - Exit
+  - Dynamite
+  - Topaz
+  - Diamond
   layers:
   - Default
   - TransparentFX
@@ -23,7 +27,7 @@ TagManager:
   - Light
   - TileSpike
   - Exit
-  - 
+  - Items
   - 
   - 
   - 
