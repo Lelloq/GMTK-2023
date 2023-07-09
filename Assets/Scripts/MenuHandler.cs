@@ -22,4 +22,8 @@ public class MenuHandler : MonoBehaviour
             ChangeToScene("Menu");
         }
     }
+<<<<<<< Updated upstream
+=======
+    public void Quit() => Application.Quit();
+>>>>>>> Stashed changes
 }
