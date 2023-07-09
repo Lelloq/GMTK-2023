@@ -1,29 +1,29 @@
-using EasyTransition;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MenuHandler : MonoBehaviour
 {
-    private void Awake() => Time.timeScale = 1.0f;
-
-    [SerializeField] private string transationId = "RectangleGrid";
-    [SerializeField] private TransitionManager transitionManager;
-
-    public void ChangeToScene(string sceneToChangeTo)
+    public void ChangeToScene (string sceneToChangeTo) 
     {
-        transitionManager.LoadScene(sceneToChangeTo, transationId, 0);
+        Debug.Log("Changing Scenes");
+        SceneManager.LoadScene(sceneToChangeTo);
+    }
+    public void Quit()
+    {
+        Debug.Log("App Quit");
+        Application.Quit();
     }
     public void Update()
     {
-        if (SceneManager.GetActiveScene().name == "Credits" && Input.anyKey)
+        if(SceneManager.GetActiveScene().name == "Credits" && Input.anyKey)
         {
             ChangeToScene("Menu");
         }
     }
-
-
-
+<<<<<<< Updated upstream
+=======
+    public void Quit() => Application.Quit();
+>>>>>>> Stashed changes
 }
