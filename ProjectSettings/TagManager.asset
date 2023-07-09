@@ -19,10 +19,10 @@ TagManager:
   - Camera
   - Line
   - Ground
-  - Spike
+  - FreeSpike
   - Light
-  - 
-  - 
+  - TileSpike
+  - Exit
   - 
   - 
   - 
@@ -56,4 +56,7 @@ TagManager:
     locked: 0
   - name: Ground
     uniqueID: 2726129171
+    locked: 0
+  - name: Exit
+    uniqueID: 3680655981
     locked: 0
