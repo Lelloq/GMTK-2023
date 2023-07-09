@@ -1664,8 +1664,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852ff2ce8b7da614cb9c33102195f43e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+
   GameOverUI: {fileID: 315341073}
   LevelLoader: {fileID: 1921046780}
+
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1727,10 +1729,12 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
+
     x: 0.085299455
     y: 0
     width: 0.82919943
     height: 1
+
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -2085,7 +2089,9 @@ Transform:
   m_Children:
   - {fileID: 892435363}
   - {fileID: 1449572867}
+
   - {fileID: 1921046781}
+
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4988,8 +4994,10 @@ Tilemap:
   - first: {x: -6, y: -3, z: 0}
     second:
       serializedVersion: 2
+
       m_TileIndex: 2
       m_TileSpriteIndex: 2
+
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -5158,8 +5166,10 @@ Tilemap:
   - first: {x: -7, y: -2, z: 0}
     second:
       serializedVersion: 2
+
       m_TileIndex: 2
       m_TileSpriteIndex: 2
+
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -5168,8 +5178,10 @@ Tilemap:
   - first: {x: -6, y: -2, z: 0}
     second:
       serializedVersion: 2
+
       m_TileIndex: 2
       m_TileSpriteIndex: 2
+
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -5178,8 +5190,10 @@ Tilemap:
   - first: {x: -5, y: -2, z: 0}
     second:
       serializedVersion: 2
+
       m_TileIndex: 2
       m_TileSpriteIndex: 2
+
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -5338,8 +5352,10 @@ Tilemap:
   - first: {x: -7, y: -1, z: 0}
     second:
       serializedVersion: 2
+
       m_TileIndex: 2
       m_TileSpriteIndex: 2
+
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -5348,8 +5364,10 @@ Tilemap:
   - first: {x: -6, y: -1, z: 0}
     second:
       serializedVersion: 2
+
       m_TileIndex: 2
       m_TileSpriteIndex: 2
+
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -5358,8 +5376,10 @@ Tilemap:
   - first: {x: -5, y: -1, z: 0}
     second:
       serializedVersion: 2
+
       m_TileIndex: 2
       m_TileSpriteIndex: 2
+
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -5678,8 +5698,10 @@ Tilemap:
   - first: {x: -9, y: 1, z: 0}
     second:
       serializedVersion: 2
+
       m_TileIndex: 2
       m_TileSpriteIndex: 2
+
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -6199,6 +6221,7 @@ Tilemap:
   m_TileAssetArray:
   - m_RefCount: 52
     m_Data: {fileID: 11400000, guid: db8370c7f2266c643b833128f5e12b17, type: 2}
+
   - m_RefCount: 120
     m_Data: {fileID: 11400000, guid: d4f146efc9de01b4aadded74934e8bd2, type: 2}
   - m_RefCount: 8
@@ -6210,6 +6233,7 @@ Tilemap:
     m_Data: {fileID: 304739822, guid: 4cd896d3ce0b8a54c88f614bb9667504, type: 3}
   - m_RefCount: 8
     m_Data: {fileID: -286526692, guid: 4cd896d3ce0b8a54c88f614bb9667504, type: 3}
+
   m_TileMatrixArray:
   - m_RefCount: 180
     m_Data:
@@ -6456,6 +6480,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+
 --- !u!1 &1921046780
 GameObject:
   m_ObjectHideFlags: 0
@@ -6500,6 +6525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dab5d6cb31733ae469838bb748214698, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+
 --- !u!1 &1964161563
 GameObject:
   m_ObjectHideFlags: 0

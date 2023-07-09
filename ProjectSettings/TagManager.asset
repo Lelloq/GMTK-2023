@@ -6,6 +6,8 @@ TagManager:
   tags:
   - SOLID
   - Barrier
+  - Obstacle
+  - ObstacleVisuals
   layers:
   - Default
   - TransparentFX
@@ -16,11 +18,11 @@ TagManager:
   - Barrier
   - Camera
   - Line
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - FreeSpike
+  - Light
+  - TileSpike
+  - Exit
   - 
   - 
   - 
@@ -48,4 +50,13 @@ TagManager:
     locked: 0
   - name: Barrier
     uniqueID: 4137017469
+    locked: 0
+  - name: Spike
+    uniqueID: 4290518773
+    locked: 0
+  - name: Ground
+    uniqueID: 2726129171
+    locked: 0
+  - name: Exit
+    uniqueID: 3680655981
     locked: 0

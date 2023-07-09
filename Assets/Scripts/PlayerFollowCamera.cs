@@ -15,4 +15,5 @@ public class PlayerFollowCamera : MonoBehaviour
         playerRb.MovePosition(cameraPos.position);
         // transform.position = new Vector3(cameraPos.position.x, cameraPos.position.y, transform.position.z);
     }
+
 }
