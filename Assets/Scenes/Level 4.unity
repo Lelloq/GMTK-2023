@@ -176,6 +176,8 @@ MonoBehaviour:
   m_LocalBounds:
     m_Center: {x: -0.28980002, y: -0.008450031, z: 0}
     m_Extent: {x: 0.9476, y: 1.53995, z: 0}
+    m_Center: {x: -0.2794, y: -0.0048999786, z: 0}
+    m_Extent: {x: 0.9454, y: 1.5372, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -444,7 +446,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2082531133}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: BackToMenu
         m_Mode: 1
@@ -7278,7 +7280,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2082531133}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: RestartGame
         m_Mode: 1
@@ -7615,7 +7617,7 @@ GameObject:
   - component: {fileID: 2064817128}
   m_Layer: 10
   m_Name: Spikes
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

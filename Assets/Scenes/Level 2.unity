@@ -7917,6 +7917,8 @@ MonoBehaviour:
   m_LocalBounds:
     m_Center: {x: -0.2549, y: 0.48010004, z: 0}
     m_Extent: {x: 0.96220005, y: 1.5821, z: 0}
+    m_Center: {x: -0.25379997, y: 0.47619998, z: 0}
+    m_Extent: {x: 0.95849997, y: 1.5768, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
