@@ -1,5 +1,6 @@
 using EasyTransition;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -32,7 +33,7 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void RestartGame() => transitionManager.LoadScene("TestLevel", transationId, 0);
+    public void RestartGame() => transitionManager.LoadScene(SceneManager.GetActiveScene().name, transationId, 0);
 
     public void BackToMenu() => transitionManager.LoadScene("Menu", transationId, 0);
 

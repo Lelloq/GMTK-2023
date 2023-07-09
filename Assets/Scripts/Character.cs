@@ -7,7 +7,7 @@ public class Character : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.TryGetComponent(out Spike spike))
+        if (collision.gameObject.CompareTag("Obstacle"))
         {
             // Player collided with spike
             OnPlayerDeath?.Invoke(this, EventArgs.Empty);
