@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
@@ -9,6 +8,5 @@ public class LevelLoader : MonoBehaviour
     public void NextLevelLoad()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-
     }
 }

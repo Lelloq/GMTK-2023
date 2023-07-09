@@ -137,9 +137,7 @@ GameObject:
   - component: {fileID: 192438989}
   m_Layer: 10
   m_Name: Exit
-
   m_TagString: Finish
-
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -619,10 +617,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-
     m_Center: {x: -0.005400002, y: 0.0995, z: 0}
     m_Extent: {x: 1.0439, y: 1.6140001, z: 0}
-
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -883,10 +879,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852ff2ce8b7da614cb9c33102195f43e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-
   GameOverUI: {fileID: 1163341129}
   LevelLoader: {fileID: 1803946454}
-
 --- !u!1 &515391640
 GameObject:
   m_ObjectHideFlags: 0
@@ -1159,12 +1153,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-
     x: 0.35662434
     y: 0
     width: 0.6178665
     height: 0.7451362
-
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -1519,7 +1511,6 @@ Transform:
   m_Children:
   - {fileID: 892435363}
   - {fileID: 608739744}
-
   - {fileID: 1803946455}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -6471,7 +6462,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-
 --- !u!1 &1803946454
 GameObject:
   m_ObjectHideFlags: 0
@@ -6516,7 +6506,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dab5d6cb31733ae469838bb748214698, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-
 --- !u!1 &1834320124
 GameObject:
   m_ObjectHideFlags: 0

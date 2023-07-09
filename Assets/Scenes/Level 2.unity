@@ -383,10 +383,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852ff2ce8b7da614cb9c33102195f43e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-
   GameOverUI: {fileID: 873614459}
   LevelLoader: {fileID: 735621367}
-
 --- !u!114 &228309343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -926,9 +924,7 @@ Transform:
   m_Children:
   - {fileID: 615365382}
   - {fileID: 604384087}
-
   - {fileID: 735621368}
-
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2485,7 +2481,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 732484947}
   m_CullTransparentMesh: 1
-
 --- !u!1 &735621367
 GameObject:
   m_ObjectHideFlags: 0
@@ -2530,7 +2525,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dab5d6cb31733ae469838bb748214698, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-
 --- !u!1 &749483266
 GameObject:
   m_ObjectHideFlags: 0
@@ -5763,12 +5757,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-
     x: 0
     y: 0
     width: 1
     height: 1
-
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -7156,10 +7148,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-
     m_Center: {x: -0.25379997, y: 0.47619998, z: 0}
     m_Extent: {x: 0.95849997, y: 1.5768, z: 0}
-
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0

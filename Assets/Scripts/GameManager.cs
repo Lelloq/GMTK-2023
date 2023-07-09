@@ -20,22 +20,12 @@ public class GameManager : MonoBehaviour
     }
 
 
-    private void Start() 
-    { 
-        Character.OnPlayerDeath += Character_OnPlayerDeath;
-        Character.OnPlayerCollect += Character_OnPlayerCollect;
-    }
-
-
-
     // -----------------------------------------------------
-
 
     //private void Character_OnPlayerDeath(object sender, System.EventArgs e)
     //{
       //  GameOver();
     //}
-
 
     private void Character_OnPlayerCollect(object sender,Character.OnPlayerCollectArgs e) 
     {
