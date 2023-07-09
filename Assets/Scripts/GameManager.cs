@@ -19,12 +19,6 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
     }
 
-    private void Start() 
-    { 
-        Character.OnPlayerDeath += Character_OnPlayerDeath;
-        Character.OnPlayerCollect += Character_OnPlayerCollect;
-    }
-
 
     // -----------------------------------------------------
 
