@@ -24,12 +24,4 @@ public class CameraMovement : MonoBehaviour
         movement.y = (Input.mousePosition.y - Screen.height / 2) / Screen.height * 2f;
         rb.velocity = speed * Time.deltaTime * movement;
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Barrier"))
-        {
-            rb.velocity = Vector2.zero;
-        }
-    }
 }
