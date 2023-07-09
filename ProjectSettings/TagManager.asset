@@ -6,11 +6,6 @@ TagManager:
   tags:
   - SOLID
   - Barrier
-  - Obstacle
-  - ObstacleVisuals
-  - Dynamite
-  - Topaz
-  - Diamond
   layers:
   - Default
   - TransparentFX
@@ -21,13 +16,12 @@ TagManager:
   - Barrier
   - Camera
   - Line
-  - Ground
-  - FreeSpike
-  - Light
-  - TileSpike
-  - Exit
-  - Items
-
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 

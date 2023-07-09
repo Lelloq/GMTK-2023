@@ -1,5 +1,4 @@
 using EasyTransition;
-using UnityEditor.Search;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -19,6 +18,8 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
     }
 
+    //private void Start() => Character.OnPlayerDeath += Character_OnPlayerDeath;
+
 
     // -----------------------------------------------------
 
@@ -26,22 +27,6 @@ public class GameManager : MonoBehaviour
     //{
       //  GameOver();
     //}
-
-    private void Character_OnPlayerCollect(object sender,Character.OnPlayerCollectArgs e) 
-    {
-        if(e.ItemType == Character.Items.Dynamite) 
-        {
-            Debug.Log("Dynamite Collected");
-        }
-        else if(e.ItemType == Character.Items.Diamond) 
-        {
-            Debug.Log("Diamond Collected");
-        }
-        else if(e.ItemType == Character.Items.Topaz) 
-        {
-            Debug.Log("Topaz Collected");
-        }
-    }
 
     public void GameOver()
     {
