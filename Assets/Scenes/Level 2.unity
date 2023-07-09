@@ -5711,9 +5711,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.055555556
-    width: 0.33333334
-    height: 0.3333333
+    y: 0
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -7101,8 +7101,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.25855, y: 0.48049992, z: 0}
-    m_Extent: {x: 0.95405, y: 1.5697999, z: 0}
+    m_Center: {x: -0.25379997, y: 0.47619998, z: 0}
+    m_Extent: {x: 0.95849997, y: 1.5768, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
