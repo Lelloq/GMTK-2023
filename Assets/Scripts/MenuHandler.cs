@@ -26,5 +26,4 @@ public class MenuHandler : MonoBehaviour
 
 
 
-    public void Quit() => Application.Quit();
 }

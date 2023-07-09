@@ -10,18 +10,12 @@ public class GameOverUI : MonoBehaviour
 
     private void Awake()
     {
-        Character.OnPlayerDeath += Character_OnPlayerDeath;
-        animator = GetComponent<Animator>();
 
+        animator = GetComponent<Animator>();
         Hide();
     }
 
-    private void Character_OnPlayerDeath(object sender, System.EventArgs e)
-    {
-        Show();
-    }
-
-    private void Show()
+    public void Show()
     {
 
         gameObject.SetActive(true);
@@ -41,6 +35,6 @@ public class GameOverUI : MonoBehaviour
 
     private void OnDestroy()
     {
-        Character.OnPlayerDeath -= Character_OnPlayerDeath;
+
     }
 }

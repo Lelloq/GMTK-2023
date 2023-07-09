@@ -18,15 +18,19 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
     }
 
-    private void Start() => Character.OnPlayerDeath += Character_OnPlayerDeath;
+
+    //private void Start() => Character.OnPlayerDeath += Character_OnPlayerDeath;
+
 
 
     // -----------------------------------------------------
 
-    private void Character_OnPlayerDeath(object sender, System.EventArgs e)
-    {
-        GameOver();
-    }
+
+    //private void Character_OnPlayerDeath(object sender, System.EventArgs e)
+    //{
+      //  GameOver();
+    //}
+
 
     public void GameOver()
     {
