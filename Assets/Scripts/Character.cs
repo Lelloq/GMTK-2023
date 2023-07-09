@@ -6,6 +6,7 @@ public class Character : MonoBehaviour
     public static event EventHandler OnPlayerDeath;
     public static event EventHandler OnGameWon;
     public static event EventHandler<OnPlayerCollectArgs> OnPlayerCollect;
+    public GameObject LevelLoader;
 
     public class OnPlayerCollectArgs : EventArgs
     {
@@ -29,6 +30,11 @@ public class Character : MonoBehaviour
         {
             Debug.Log("Game Won");
             OnGameWon?.Invoke(this, EventArgs.Empty);
+        }
+        if (collision.gameObject.CompareTag("Finish"))
+        {
+            Debug.Log("Collided with Finish");
+            LevelLoader.GetComponent<LevelLoader>().NextLevelLoad();
         }
     }
 
